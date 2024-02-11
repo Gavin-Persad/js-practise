@@ -1,2 +1,8 @@
-let x = 1, y = 3;
-alert( y - x ); // 2, binary minus subtracts values
+let apples = "2";
+let oranges = "3";
+
+// both values converted to numbers before the binary plus
+alert( +apples + +oranges ); // 5
+
+// the longer variant
+// alert( Number(apples) + Number(oranges) ); // 5
